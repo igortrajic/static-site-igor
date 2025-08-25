@@ -1,14 +1,95 @@
 body {
-  background-color: #f0f0f0;
+  background-color: white;
   font-family: sans-serif;
   color: #333;
-  padding: 20px;
+  padding: 0px;
+  margin: 0;
 }
 
-h1 {
-  color: #3366cc;
+.logo {
+  width: 120;
 }
 
-p {
-  font-size: 18px;
+.menu {
+  width: 457;
+  height: 28;
+  gap: 60px;
+  opacity: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
+
+
+.right-menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.my-header {
+  width: 1920;
+  height: 84;
+  padding-top: 8px;
+  padding-right: 150px;
+  padding-bottom: 8px;
+  padding-left: 150px;
+  opacity: 1;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 20px 5px #00000014;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-us {
+  width: 185;
+  height: 68;
+  padding-top: 24px;
+  padding-right: 40px;
+  padding-bottom: 24px;
+  padding-left: 40px;
+  gap: 4px;
+  opacity: 1;
+  background: #020E35;
+  color: #FFFFFF;
+  font-family: Merriweather;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+
+}
+
+.menu-right {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.underline {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: #FF5678;
+  text-decoration-thickness: 4px;
+}
+
+.logo {
+  width: 127.86875915527344;
+  height: 41;
+  gap: 4px;
+  opacity: 1;
+}
+
+.font{
+  font-family: Merriweather;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0%;
+text-transform: uppercase;
+}
+
+
