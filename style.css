@@ -1,64 +1,39 @@
 body {
-  background-color: white;
-  font-family: sans-serif;
-  color: #333;
-  padding: 0px;
-  margin: 0;
-}
-
-.logo {
-  width: 120;
+  font-family:'Merriweather',sans-serif;
+  color: #020E35;
+  margin: 0px;
+  
 }
 
 .menu {
-  width: 457;
-  height: 28;
   gap: 60px;
-  opacity: 1;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.right-menu {
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
+  font-weight: 400;
 }
 
 .my-header {
-  width: 1920;
-  height: 84;
   padding-top: 8px;
   padding-right: 150px;
   padding-bottom: 8px;
   padding-left: 150px;
-  opacity: 1;
   background: #FFFFFF;
   box-shadow: 0px 8px 20px 5px #00000014;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
 .contact-us {
-  width: 185;
-  height: 68;
   padding-top: 24px;
   padding-right: 40px;
   padding-bottom: 24px;
   padding-left: 40px;
-  gap: 4px;
-  opacity: 1;
   background: #020E35;
   color: #FFFFFF;
-  font-family: Merriweather;
   font-weight: 700;
   font-style: Bold;
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: 0%;
-  text-transform: uppercase;
-
 }
 
 .menu-right {
@@ -67,55 +42,36 @@ body {
   gap: 60px;
 }
 
-.underline {
+.underline:hover {
   text-decoration: underline;
   text-underline-offset: 8px;
   text-decoration-color: #FF5678;
   text-decoration-thickness: 4px;
 }
 
-.logo {
-  width: 127.86875915527344;
-  height: 41;
-  gap: 4px;
-  opacity: 1;
-}
-
-.font{
-  font-family: Merriweather;
-font-weight: 400;
-font-style: Regular;
-font-size: 16px;
-line-height: 20px;
-letter-spacing: 0%;
-text-transform: uppercase;
-}
-
 .home-header {
   padding-left: 150px;
   padding-right: 150px; 
-  padding-top: 300px;
-  padding-bottom: 200px;
+  margin-top: 300px;
+  margin-bottom: 200px;
   display: flex;
   justify-content: space-between;
 
 }
 
 .image1 {
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 4px;
+  margin-bottom: 200px;
   border-radius: 200px;
-  background: #FFEEF633;
+  color: #FFEEF6;
+
 }
 
 .text {
-font-family: Merriweather;
 font-weight: 900;
 font-style: Black;
 font-size: 76px;
 line-height: 110px;
-letter-spacing: 0px;
+margin-bottom: 56px;
 }
 
 mark {
@@ -126,18 +82,22 @@ mark {
 }
 
 .seework{
-padding-top: 24px;
-padding-right: 40px;
-padding-bottom: 24px;
-padding-left: 40px;
-background: #020E35;
-font-family: Merriweather;
-text-decoration: none;
-font-weight: 700;
-line-height: 23px;
-color: #FFFFFF;
-box-shadow: 0px 20px 40px 5px #00000040;
+padding: 24px 40px;
+width: fit-content;
 }
 
+.buttons {
+  background: #020E35;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 23px;
+  color: #FFFFFF;
+  box-shadow: 0px 20px 40px 5px #00000040;
+}
 
-
+.info1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
