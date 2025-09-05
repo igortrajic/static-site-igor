@@ -3,6 +3,7 @@ body {
   color: #020E35;
   margin: 0px;
   font-size: 18px;
+  overflow-x: hidden;
 }
 
 .titles {
@@ -372,6 +373,7 @@ p {
 
 .previousseemore {
   align-self: center;
+  padding: 24px 80px;
 }
 
 .testimonialheader {
@@ -428,7 +430,6 @@ p {
   padding-bottom: 100px;
   overflow: visible;
   transform: scale(1.1);
-  padding: ;
 }
 
 .tile3 {
@@ -532,4 +533,91 @@ p {
   margin-top: 60px;
   padding: 24px 80px;
 
+}
+.footer{
+  position: relative;
+  z-index: 1;
+}
+
+.footerlinks {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+  padding-top: 100px;
+  margin-bottom: 60px;
+  margin-right: 150px;
+}
+
+.groupssettings {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  gap: 16px;
+}
+
+.grouptitle {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.groupcontent{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.zebblogo {
+  width: 128px;
+}
+
+.socialpic{
+  width: 400px;
+}
+
+.logogroup {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.Adress {
+  font-weight: 700;
+}
+
+.cercle{
+  position: absolute;
+  background: #FFEEF6;
+  left: -105px;
+  width: 609px;
+  height: 495px;
+  border-radius: 1000px;
+  z-index: 0;
+}
+
+.cercle2 {
+  position: absolute;
+  background: #FFEEF6;
+  right: -105px;
+  width: 609px;
+  height: 495px;
+  border-radius: 1000px;
+  z-index: 0;
+}
+
+.end {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background: #020E35;
+  color: #FFFFFF;
+  padding-left: 150px;
+  height:82px;
+  padding-right: 150px;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+.endbuttons{
+  display: flex;
+  gap: 60px;
 }
