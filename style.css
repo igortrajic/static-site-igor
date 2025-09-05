@@ -17,20 +17,24 @@ body {
   font-size: 28px;
   font-weight: 700;
   line-height: 36px;
-  font-style: bold;
 }
 
-.menu {
-  gap: 60px;
+.pages {
+  margin-left: 150px;
+  margin-right: 150px;
   display: flex;
+  justify-content: space-between;
+}
+
+
+.menu {
+  display: flex;
+  gap: 60px;
   font-weight: 400;
 }
 
 .my-header {
-  padding-top: 8px;
-  padding-right: 150px;
-  margin-bottom: 8px;
-  padding-left: 150px;
+  padding: 8px 150px 8px 150px;
   background: #FFFFFF;
   box-shadow: 0px 8px 20px 5px #00000014;
   display: flex;
@@ -48,7 +52,6 @@ body {
   background: #020E35;
   color: #FFFFFF;
   font-weight: 700;
-  font-style: Bold;
 }
 
 .menu-right {
@@ -63,15 +66,9 @@ body {
   text-decoration-color: #FF5678;
   text-decoration-thickness: 4px;
 }
-
+/* HOME */
 .home-header {
-  margin-left: 150px;
-  margin-right: 150px;
   padding-top: 300px;
-  margin-bottom: 0px;
-  display: flex;
-  justify-content: space-between;
-
 }
 
 .image1 {
@@ -113,14 +110,10 @@ mark {
   justify-content: space-between;
   height: 100%;
 }
-
+/* POWERED BY */
 .poweredby-page {
-  margin-left: 150px;
-  margin-right: 150px;
   margin-top: 100px;
   padding-bottom: 100px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .info2 {
@@ -154,15 +147,10 @@ mark {
   background-size: 100% 0.95em;
   background-position: 0em 0.56em;
 }
-
-
+/* SERVICES */
 .services-page {
-  display: flex;
-  justify-content: space-between;
   margin-top: 100px;
   padding-bottom: 100px;
-  margin-left: 150px;
-  margin-right: 150px;
   position: relative;
   z-index: 1
 }
@@ -217,13 +205,9 @@ mark {
   flex-direction: column;
   gap: 40px;
 }
-
+/* EXPERIENCE */
 .experiencessection {
-  display: flex;
-  justify-content: space-between;
   margin-top: 100px;
-  margin-left: 150px;
-  margin-right: 150px;
   padding-bottom: 100px;
 }
 
@@ -249,7 +233,7 @@ p {
   line-height: 32px;
   margin: 0;
 }
-
+/* TEAM */
 .teamheader {
   display: flex;
   flex-direction: column;
@@ -296,14 +280,11 @@ p {
   transform: scale(1.05);
   box-shadow: 0px 20px 40px 5px #00000026;
 }
-
+/*PREVIOUS WORK*/
 .previouswork {
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
-  margin-right: 150px;
-  margin-left: 150px;
-  margin-bottom: 100px;
+  margin: 100px 150px 100px 150px;
 }
 
 .previousworktitle {
@@ -375,7 +356,7 @@ p {
   align-self: center;
   padding: 24px 80px;
 }
-
+/*TESTIMONIAL*/
 .testimonialheader {
   display: flex;
   flex-direction: column;
@@ -412,7 +393,7 @@ p {
   border: 1px solid #949494;
   border-radius: 150px;
   flex-grow: 0;
-  flex: 0 1 auto; 
+  flex: 0 1 auto;
 }
 
 .paragraph {
@@ -438,7 +419,7 @@ p {
   flex: 0 0 460px;
 }
 
-.big  {
+.big {
   padding-top: 130px;
 }
 
@@ -451,17 +432,16 @@ p {
   justify-content: space-between;
   overflow: unset;
 }
-
+/*CONTACT*/
 .contactusheader {
-  margin:100px 150px 100px 150px;
+  margin: 100px 150px 100px 150px;
   padding-top: 100px;
   padding-bottom: 100px;
   display: flex;
   justify-content: space-between;
-  
 }
 
-.contactcer{
+.contactcer {
   width: 780px;
   height: 670px;
   border-radius: 1000px;
@@ -474,13 +454,13 @@ p {
   flex-direction: column;
 }
 
-.space{
+.space {
   padding-bottom: 20px;
   padding-top: 40px;
 }
 
 .titlecontact {
-  padding-right: 129px ;
+  padding-right: 129px;
   background-size: 45% 0.50em;
   background-position: 3.8em 1.76em;
   margin: 0;
@@ -503,11 +483,12 @@ p {
   height: 200px;
 }
 
-.buttoncontact { 
+.buttoncontact {
   margin-top: 40px;
   padding: 24px 80px;
 }
 
+/*NEWSLETTERS*/
 .newslettersheader {
   display: flex;
   justify-content: space-between;
@@ -534,7 +515,8 @@ p {
   padding: 24px 80px;
 
 }
-.footer{
+/*FOOTER*/
+.footer {
   position: relative;
   z-index: 1;
 }
@@ -561,7 +543,7 @@ p {
   font-size: 20px;
 }
 
-.groupcontent{
+.groupcontent {
   font-size: 14px;
   font-weight: 400;
 }
@@ -570,7 +552,7 @@ p {
   width: 128px;
 }
 
-.socialpic{
+.socialpic {
   width: 400px;
 }
 
@@ -583,7 +565,7 @@ p {
   font-weight: 700;
 }
 
-.cercle{
+.cercle {
   position: absolute;
   background: #FFEEF6;
   left: -105px;
@@ -610,14 +592,14 @@ p {
   background: #020E35;
   color: #FFFFFF;
   padding-left: 150px;
-  height:82px;
+  height: 82px;
   padding-right: 150px;
   align-items: center;
   font-size: 14px;
   font-weight: 400px;
 }
 
-.endbuttons{
+.endbuttons {
   display: flex;
   gap: 60px;
 }
