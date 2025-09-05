@@ -13,6 +13,14 @@ body {
   margin: 0;
 }
 
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
 .subtitles {
   font-size: 28px;
   font-weight: 700;
@@ -25,7 +33,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
 
 .menu {
   display: flex;
@@ -66,6 +73,7 @@ body {
   text-decoration-color: #FF5678;
   text-decoration-thickness: 4px;
 }
+
 /* HOME */
 .home-header {
   padding-top: 300px;
@@ -110,6 +118,7 @@ mark {
   justify-content: space-between;
   height: 100%;
 }
+
 /* POWERED BY */
 .poweredby-page {
   margin-top: 100px;
@@ -140,13 +149,13 @@ mark {
   font-weight: 700;
 }
 
-
 .underlinee {
   background-image: linear-gradient(#FF5678, #FF5678);
   background-repeat: no-repeat;
   background-size: 100% 0.95em;
   background-position: 0em 0.56em;
 }
+
 /* SERVICES */
 .services-page {
   margin-top: 100px;
@@ -205,6 +214,7 @@ mark {
   flex-direction: column;
   gap: 40px;
 }
+
 /* EXPERIENCE */
 .experiencessection {
   margin-top: 100px;
@@ -233,6 +243,7 @@ p {
   line-height: 32px;
   margin: 0;
 }
+
 /* TEAM */
 .teamheader {
   display: flex;
@@ -280,6 +291,7 @@ p {
   transform: scale(1.05);
   box-shadow: 0px 20px 40px 5px #00000026;
 }
+
 /*PREVIOUS WORK*/
 .previouswork {
   display: flex;
@@ -356,6 +368,7 @@ p {
   align-self: center;
   padding: 24px 80px;
 }
+
 /*TESTIMONIAL*/
 .testimonialheader {
   display: flex;
@@ -432,6 +445,7 @@ p {
   justify-content: space-between;
   overflow: unset;
 }
+
 /*CONTACT*/
 .contactusheader {
   margin: 100px 150px 100px 150px;
@@ -502,6 +516,26 @@ p {
   background-position: 2.82em 1.76em;
 }
 
+#name {
+  border: 1px solid #020E35;
+  background: #FFEEF6;
+  padding-bottom: 42px;
+  border-radius: 10px;
+  padding-right: 450px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#email {
+  border: 1px solid #020E35;
+  background: #FFEEF6;
+  padding-bottom: 42px;
+  border-radius: 10px;
+  padding-right: 450px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
 .newcir {
   width: 780px;
   height: 670px;
@@ -511,10 +545,10 @@ p {
 
 .buttonnew {
   display: flex;
-  margin-top: 60px;
   padding: 24px 80px;
 
 }
+
 /*FOOTER*/
 .footer {
   position: relative;
